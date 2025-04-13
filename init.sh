@@ -3,3 +3,4 @@ sudo rm -rf data
 mkdir data
 cp server.jar data/
 echo "eula=true" > data/eula.txt
+docker-compose up --build

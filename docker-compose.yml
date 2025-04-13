@@ -1,7 +1,9 @@
+version: "3.9"
+
 services:
   minecraft:
     build: .
     ports:
-      - "25566:25565"
+      - "25566:25565"  # Porta do Minecraft
     volumes:
       - ./data:/minecraft:z
